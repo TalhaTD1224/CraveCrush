@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Theme Colors -->
+    <color name="colorPrimary">#ef4444</color>
+    <color name="colorPrimaryDark">#d93737</color>
+    <color name="colorAccent">#ef4444</color>
+
+    <!-- Standard Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Custom Colors -->
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color name="logo_red">#ef4444</color>
+    <color name="text_color_secondary">#636E72</color>
+</resources>

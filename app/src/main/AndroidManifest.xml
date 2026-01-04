@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.talha.cravecrush">
+
+    <!-- Internet permission added to allow email sending and network access -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- The application theme is now set to the correct, modern NoActionBar theme -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CraveCrush">
+
+        <activity android:name=".activities.SplashActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.SignupActivity" />
+        <activity android:name=".activities.ForgotPasswordActivity" />
+
+        <!-- The redundant theme tag has been removed from DashboardActivity -->
+        <activity android:name=".activities.DashboardActivity" />
+
+        <activity android:name=".activities.MenuDetailActivity" />
+        <activity android:name=".activities.CartActivity" />
+        <activity android:name=".activities.OrderCheckoutActivity" />
+        <activity android:name=".activities.OrderSuccessActivity" />
+        <activity android:name=".activities.OrderHistoryActivity" />
+        <activity android:name=".activities.AdminActivity" />
+        <activity android:name=".admin.AdminOrderDetailActivity" />
+        <activity android:name=".admin.AdminManageMenuActivity" />
+        <activity android:name=".admin.AdminAddEditItemActivity" />
+    </application>
+
+</manifest>

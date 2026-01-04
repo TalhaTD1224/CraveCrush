@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CraveCrush</string>
+    <string-array name="categories">
+        <item>deals</item>
+        <item>burger</item>
+        <item>pizza</item>
+        <item>drinks</item>
+        <item>dessert</item>
+    </string-array>
+
+    <!-- Strings for Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

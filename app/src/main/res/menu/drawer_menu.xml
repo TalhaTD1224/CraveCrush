@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- A group for items always visible -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Menu" />
+        <item
+            android:id="@+id/nav_cart"
+            android:title="View Cart" />
+    </group>
+
+    <!-- Group for guest users -->
+    <group android:id="@+id/group_guest" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_signup"
+            android:title="Sign Up" />
+    </group>
+
+    <!-- Group for logged-in users -->
+    <group android:id="@+id/group_user" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_order_history"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_admin_panel"
+            android:title="Admin Panel"
+            android:visible="false" /> <!-- Hidden by default -->
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
