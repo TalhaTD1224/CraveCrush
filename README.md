@@ -15,8 +15,5 @@ CraveCrush is an Android-based food ordering application that allows users to br
 - Firebase Firestore
 - Material Design
 
-## Screenshots
-(Add screenshots here)
-
 ## Author
 Talha Ameer
